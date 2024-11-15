@@ -76,10 +76,7 @@ def get_perfume_info(html_content: str, product_url: str = None) -> Dict[str, st
     perfume_info = {
         "Product_Name": None,
         "Brand": None,
-        "Price": None,
         "Olfactive_Family": None,
-        "Rating": None,
-        "Review_Count": None,
         "Product_Label": None,
         "Product_URL": product_url
     }
