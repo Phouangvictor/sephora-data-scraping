@@ -16,18 +16,28 @@ By focusing on these specific criteria, I aimed to **create a dataset** that wou
 <img width="1494" alt="Screenshot 2024-11-15 at 10 13 50" src="https://github.com/user-attachments/assets/a7236dab-b76e-4664-a4f9-814b560168c8">
 
 # Data Points Extracted: #
-My scraper delves deep into Sephora's product pages to extract a wealth of information, including:
+My scraper dwelves deep into Sephora's product pages to extract a wealth of information, including:
 
 **Product name:** The actual name of the fragrance.
+
 **Brand:** The brand behind the fragrance.
+
 **Price:** Both with and without tax.
+
 **Discount amount:** To identify potential patterns in discounts or promotions.
+
 **Average rating:** To gauge overall customer satisfaction.
+
 **Number of reviews:** To assess the popularity and feedback volume of a fragrance.
+
 **Product label:** Identifying "Bestseller" or other promotional labels.
+
 **Full product name:** The complete product name as listed on Sephora.
+
 **Product Type:** Whether it's an eau de parfum, eau de toilette, etc.
+
 **Market Type:** Selective or exclusive, to understand distribution strategies.
+
 **Target Gender:** Male, female, or mixed.
 
 **And more!**
@@ -35,10 +45,15 @@ My scraper delves deep into Sephora's product pages to extract a wealth of infor
 
 # A Peek Under the Hood: Files and Functionality #
 **main.py:** The script that orchestrates the entire scraping process.
+
 **product_info.py:** Contains functions to extract detailed product information from individual product pages.
+
 **product_links.py:** Extracts all the links to individual perfume pages from the main product listing page.
+
 **get_product_html.py:** Fetches the raw HTML content from each product page.
+
 **get_overall_html.py:** Fetches the raw HTML content from the main perfume listing page.
+
 **perfumes_data.json:** A sample data output file in JSON format to illustrate the structure and content of the scraped data.
 
 # Running the Scraper: #
