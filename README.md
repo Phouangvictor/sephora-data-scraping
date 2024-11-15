@@ -1,6 +1,7 @@
 # Sephora Perfume Scraper: Uncovering Fragrance Trends
-**Dive into the World of Fragrances with this Python-Powered Scraper**
 ![Symbole-Sephora](https://github.com/user-attachments/assets/c9326c9d-1b10-4805-803a-1971b3b56eae)
+
+**Dive into the World of Fragrances with this Python-Powered Scraper**
 
 This project was born out of a fascinating challenge in my Python programming course at  Eugenia School: **to extract and analyze data from Sephora's extensive perfume collection.** I wanted to go beyond a simple scraping exercise and uncover potential trends in the fragrance world. To make the project more manageable and insightful, I decided to focus on a specific segment of Sephora's perfume offerings:
 
