@@ -3,10 +3,8 @@ import re
 from bs4 import BeautifulSoup
 from typing import Dict
 
-# Votre fonction extract_tcdata déjà corrigée
 def extract_tcdata(script_content: str) -> dict:
     try:
-        # Add debug print to see if we're finding tcData
         print("Searching for tcData in script content...")
         
         start_marker = "tcData  = {" if "tcData  = {" in script_content else "tcData = {"
@@ -74,7 +72,6 @@ def extract_tcdata(script_content: str) -> dict:
         print(f"Error extracting tcData: {str(e)}")
         return {}
 
-# Fonction pour extraire et afficher les informations sur le parfum
 def get_perfume_info(html_content: str, product_url: str = None) -> Dict[str, str]:
     perfume_info = {
         "Product_Name": None,
@@ -120,7 +117,6 @@ def get_perfume_info(html_content: str, product_url: str = None) -> Dict[str, st
     label_element = soup.find("span", class_="text-flag-label")
     perfume_info["Product_Label"] = label_element.get_text(strip=True) if label_element else None
 
-    # Extraire et fusionner tcData
     script_elements = soup.find_all("script")
     tcdata_found = False
     print(f"Found {len(script_elements)} script tags")
