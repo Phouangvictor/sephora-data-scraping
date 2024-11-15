@@ -1,5 +1,5 @@
 # Sephora Perfume Scraper: Uncovering Fragrance Trends
-![Symbole-Sephora](https://github.com/user-attachments/assets/c9326c9d-1b10-4805-803a-1971b3b56eae)
+![Symbole-Sephora](https://github.com/user-attachments/assets/3e49568a-99a0-49b7-bbca-4e1f5ac4e1f8)
 
 **Dive into the World of Fragrances with this Python-Powered Scraper**
 
